@@ -1,7 +1,6 @@
 
 	//Smallest multiple
 
-
 var num, result = 1;
 for(var i=2; i<20; i++){
 	num=i;

@@ -3,7 +3,6 @@
 function rev(num){
 	return num.toString().split("").reverse().join("");
 } 
-	// // console.log(rev(256));
 var result=1;
 var revArr = [];
 for (var i = 999; i>100; i--) {
@@ -18,5 +17,4 @@ function arrayMax(arr) {
     return ( p > v ? p : v );
   });
 }
-
 console.log(arrayMax(revArr));
